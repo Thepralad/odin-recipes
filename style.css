@@ -1,11 +1,28 @@
 body{
     background-color: rgb(255, 255, 216);
+    margin: 0px;
 }
-h1{
+.head{
     color: rgb(56, 56, 56);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-size: 70px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background-color: rgba(186, 245, 24, 0.717);
+    padding: 2px 20px;
+}
+
+.recipes-list{
+    display: inline;
+    border: 2px dashed black ;
+    margin: 20px;
+    padding: 5px;
+    color: rgb(56, 56, 56);
+    background-color: rgba(186, 245, 24, 0.717);
+}
+.recipes-list a{
+    color: rgb(56, 56, 56) ;
+
+    font-weight: bold;
 }
 .headers{
     color: rgb(56, 56, 56);
